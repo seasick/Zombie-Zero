@@ -27,6 +27,7 @@ jobs:
 
       # build the LÖVE project
       - uses: nhartland/love-build@v1-beta2
+        id: love-build
         with:
          app_name: 'zombie-zero'
          love_version: '11.3'
